@@ -31,6 +31,20 @@
                 <li>fecha | date:'long'</li>
                 <li>fecha | date:'dd/MM/YY'</li>
             </ul>
+
+            <hr>
+            <ul>
+                <li>
+                    fecha|date:'long':'GMT-5'
+                </li>
+                <li>
+                    fecha|date:'long':'GMT-4'
+                </li>
+                <li>
+                    fecha|date:'long':'':'ja'
+                </li>
+                
+            </ul>
         </p-card>
     </div>
     <div class="col-6">
@@ -41,6 +55,19 @@
                 <li>{{fecha|date:'short'}}</li>
                 <li>{{fecha|date:'long'}}</li>
                 <li>{{fecha|date:'dd/MM/YYYY'}}</li>
+            </ul>
+
+            <hr>
+            <ul>
+                <li>
+                    {{fecha|date:'long':'GMT-5'}}
+                </li>
+                <li>
+                    {{fecha|date:'long':'GMT-4'}}
+                </li>
+                <li>
+                    {{fecha|date:'long':'':'ja'}}
+                </li>
             </ul>
         </p-card>
     </div>
